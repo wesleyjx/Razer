@@ -1,0 +1,489 @@
+/*
+* @Author: admin
+* @Date:   2018-10-22 18:46:32
+* @Last Modified by:   admin
+* @Last Modified time: 2018-10-22 19:28:35
+*/
+
+@media (min-width: 768px) {
+	.nav01{
+		width: 100%;
+		position: fixed;
+		top: 0px;
+	}
+	.nav02{
+		display: none;
+	}
+	.nav01{
+		max-width: 1170px;
+		height: 40px;
+		padding: 0px;
+	}
+	.nav01 .logo{
+		width: 112px;
+		height: 20px;
+		float: left;
+		margin-top: 15px;
+	}
+	.nav01 .logo a{
+		width: 112px;
+		height: 20px;
+		background: url('../../imges/login/razer_logo.svg') no-repeat;
+		background-size: 100% 100%;
+		display: block;
+	}
+	.nav01 .right{
+		margin-top: 10px;
+		margin-right: 0px;
+	}
+	.nav01 .right a:hover{
+		text-decoration: none;
+	}
+	.nav01 .right ul{
+		margin-right: 10px;
+	}
+	.nav01 .right ul>li{
+		float: left;
+		margin-right: 10px;
+	}
+	.nav01 .right ul .account{
+		color: #fff;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.nav01 .right ul .login{
+		width: 110px;
+		height: 30px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		text-align: center;
+		line-height: 30px;
+	}
+	.nav01 .right ul .login a{
+		width: 110px;
+		height: 30px;
+		color: #fff;
+		padding: 0px;
+		width: 110px;
+		height: 30px;
+		display: block;
+	}
+	.nav01 .right a:hover{
+		text-decoration: none;
+	}
+	.nav01 .right ul .support{
+		margin-top: 5px;
+	}
+	.nav01 .right ul .support a{
+		font-size: 12px;
+		color: #fff;		
+	}
+	.nav01 .right ul .lan{
+		margin-top: 5px;
+		position: relative;
+		height: 30px;
+	}
+	.nav01 .right ul .lan .earth{
+		width: 14px;
+		height: 14px;
+		background: url('../../imges/login/globe.svg') no-repeat;
+		display: block;
+		background-size: 100% 100%;
+		float: left;
+		margin-right: 5px;
+		margin-top: 4px;
+	}
+	.nav01 .right ul .lan a{
+		color: #eee;
+		font-size: 12px;
+	}
+	.nav01 .right ul .lan .sub{
+		width: 150px;
+		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 4px;
+		position: absolute;
+		top: 25px;
+		right: -150px;
+		z-index: 5;
+		display: none;
+	}
+	.nav01 .right ul .lan .sub ul{
+		width: 100%;
+	}
+	.nav01 .right ul .lan .sub ul li{
+		width: 100%;
+		height: 25px;
+		padding-left: 10px;
+		line-height: 25px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.nav01 .right ul .lan .sub ul li a{
+		display: block;
+		width: 100%;
+		height: 25px;
+	}
+	.nav01 .right ul .lan .sub ul li a:hover{
+		color: #00ff00;
+	}
+	.bd{
+		width: 100%;
+		height: 1000px;
+		background: url('../../imges/login/gunmetal.jpg') no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		position: relative;
+	}
+	.bd #form01{
+		max-width: 330px;
+		height: 450px;
+		background-color: rgba(0, 0, 0, 0.8);
+		background-attachment: fixed;
+		padding: 23px;
+		color: #fff;
+		position: fixed;
+		top: 80px;
+		left: 50%;
+		margin-left: -175px;
+	}
+	.bd #form01 .wel{
+		font-size: 25px;
+		color: #fff;
+		text-align: center;
+	}
+	.bd #form01 .email{
+		margin-top: 20px;
+		position: relative;
+	}
+	.bd #form01 .email .email01{
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		border-radius: 0px;
+		padding: 0px;
+		color: #fff!important;		
+	}
+	.bd #form01 .user{
+		margin-top: 30px;
+		position: relative;
+	}
+	.bd #form01 .user .user01{
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		border-radius: 0px;
+		padding: 0px;
+		color: #fff!important;		
+	}
+	.bd #form01 .pass{
+		position: relative;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+	.bd #form01 .pass .pass01{
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		border-radius: 0px;
+		padding: 0px;
+		color: #fff!important;
+	}
+	.bd #form01 .pass .eye{
+		display: block;
+		width: 20px;
+		height: 15px;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	.bd #form01 .pass .eye .eye01{
+		width: 20px;
+		height: 15px;
+		background: url('../../imges/login/icon_eye.svg') no-repeat;
+	}
+	.bd #form01 .pass .eye .eye02{
+		width: 20px;
+		height: 15px;
+		background: url('../../imges/login/icon_eye_green.svg') no-repeat;
+		display: none;
+	}
+	.bd #form01 .btn01{
+		width: 100%;
+		height: 45px;
+		background-color: #44d62c;
+		color: #000;
+		font-size: 16px;
+		margin-top: 50px;
+		border: none;
+		outline: none;
+		border-radius: 3px;
+	}
+	.bd #form01 .btn02{
+		width: 100%;
+		height: 45px;
+		background: transparent;
+		color: #666;
+		font-size: 16px;
+		margin-top: 10px;
+		border: 1px solid #666;
+		border-radius: 3px;
+	}
+	.bd #form01 .btn02:hover{
+		border-color: #fff;
+		color: #fff;
+	}
+	.bd #form01 .btn01:hover{
+		background-color: #00ff00;
+	}
+	.bd  footer{
+		width: 100%;
+		overflow: hidden;
+		position: absolute;
+		bottom: 10px;
+		left: 0px;
+	}
+	.bd footer .footer{
+		max-width: 970px;
+		padding: 0px;
+		color: #fff;
+		text-align: center;
+	}
+	.bd footer .footer .top{
+		color: #44d62c;
+		font-size: 16px;
+		display: block;
+		width: 200px;
+		margin: 0px auto;
+	}
+	.bd footer .footer p{
+		margin-top: 10px;
+		font-size: 12px;
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.bd footer .footer ul{
+		width: 270px;
+		overflow: hidden;
+		margin-bottom: 10px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.bd footer .footer ul li a{
+		color: #fff;
+		float: left;
+		text-decoration: underline;
+		margin-right: 2px;
+	}
+	.bd footer .footer>a{
+		display: block;
+		width: 97px;
+		height: 28px;
+		background: url('../../imges/login/logo_razer_game_store.svg') no-repeat;
+		background-size: 100% 100%;
+		margin: 0px auto;
+	}
+}
+
+
+
+@media (max-width: 768px) {
+	.nav01{
+		display: none;
+	}
+	.nav02 .right ul .lan .earth{
+		width: 22px;
+		height: 22px;
+		background: url('../../imges/login/globe.svg') no-repeat;
+		display: block;
+		background-size: 100% 100%;
+		margin-left: 20px;
+	}
+	.nav02 .logo{
+		width: 100%;
+		height: 20px;
+		float: left;
+	}
+	.nav02 .logo a{
+		width: 112px;
+		height: 20px;
+		background: url('../../imges/login/razer_logo.svg') no-repeat;
+		background-size: 100% 100%;
+		display: block;
+		margin: 20px auto;
+	}
+	.nav02 .right{
+		width: 200px;
+	}
+	.nav02 .right .lan{
+		width: 100px;
+		margin-top: 20px;
+		position: relative;
+	}
+	.nav02 .right .lan .sub{
+		width: 200px;
+		background-color: transparent;
+		z-index: 10;
+		display: none;
+		position: absolute;
+		top: 25px;
+	}
+	.nav02 .right .lan .sub p{
+		color: #fff;
+		font-size: 16px;
+		margin: 10px auto;
+		text-align: center;
+	}
+	.nav02 .right .lan .sub ul{
+		padding-left: 10px;
+	}
+	.nav02 .right .lan .sub ul li a{
+		color: #fff;
+		width: 100%;
+		height: 25px;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.nav02 .right .lan .sub ul li a:hover{
+		text-decoration: none;
+		color: #00ff00;
+		font-size: 16px;
+	}
+	.bd{
+		width: 100%;
+		height: 800px;
+		background: #222;
+		overflow: hidden;
+	}
+	.bd  #form01{
+		margin: 100px auto;
+		max-width: 330px;
+	}
+	.bd  #form01 .wel{
+		display: none;
+	}
+	.bd  #form01 .use{
+		color: #ccc;
+		font-size: 14px;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.bd  #form01 label{
+		display: none;
+	}
+	.bd  #form01 .email{
+		margin-top: 40px;
+	}
+	.bd  #form01  input{
+		width: 100%;
+		height: 45px;
+		background: transparent;
+		border-color: #666;
+	}
+	.bd  #form01 .pass{
+		position: relative;
+	}
+	.bd  #form01 .pass .eye{
+		display: block;
+		width: 20px;
+		height: 15px;
+		position: absolute;
+		top: 15px;
+		right: 10px;
+	}
+	.bd  #form01 .pass .eye .eye01{
+		width: 20px;
+		height: 15px;
+		background: url('../../imges/login/icon_eye.svg') no-repeat;
+	}
+	.bd  #form01 .pass .eye .eye02{
+		width: 20px;
+		height: 15px;
+		background: url('../../imges/login/icon_eye_green.svg') no-repeat;
+		display: none;
+	}
+	.bd  #form01 .btn01{
+		width: 100%;
+		height: 45px;
+		background-color: #44d62c;
+		color: #000;
+		font-size: 16px;
+		margin-top: 50px;
+		border: none;
+		outline: none;
+		border-radius: 3px;
+	}
+	.bd  #form01 .btn02{
+		width: 100%;
+		height: 45px;
+		background: transparent;
+		color: #666;
+		font-size: 16px;
+		margin-top: 10px;
+		border: 1px solid #666;
+		border-radius: 3px;
+	}
+	.bd  #form01 .btn02:hover{
+		border-color: #fff;
+		color: #fff;
+	}
+	.bd  #form01 .btn01:hover{
+		background-color: #00ff00;
+	}
+
+	.bd  footer{
+		width: 100%;
+		overflow: hidden;
+	}
+	.bd  footer .footer{
+		padding: 0px;
+		color: #666;
+		text-align: center;
+	}
+	.bd  footer .footer .top{
+		color: #44d62c;
+		font-size: 16px;
+		display: block;
+		width: 200px;
+		margin: 0px auto;
+	}
+	.bd  footer .footer p{
+		margin-top: 10px;
+		font-size: 12px;
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.bd  footer .footer ul{
+		width: 270px;
+		overflow: hidden;
+		margin-bottom: 10px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.bd  footer .footer ul li a{
+		color: #666;
+		float: left;
+		text-decoration: underline;
+		margin-right: 2px;
+	}
+	.bd  footer .footer .shop{
+		display: none;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

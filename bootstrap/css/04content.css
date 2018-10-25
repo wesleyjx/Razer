@@ -1,0 +1,2662 @@
+
+/*
+* @Author: admin
+* @Date:   2018-10-08 15:27:31
+* @Last Modified by:   admin
+* @Last Modified time: 2018-10-22 21:00:40
+*/
+
+body{
+	background-color: #000;
+}
+.g-nav{
+	background-color: #111;
+	border-radius: 0px;
+	border: none;
+	position: relative;
+	margin: 0px;
+	display: block;
+}
+.g-nav .g-head .g-menu li a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+.g-nav .g-head .g-menu li a:hover{
+	color: #00ff00;
+}
+main{
+	width: 100%;
+}
+main .m-nav{
+	width: 100%;
+	border: none;
+	border-radius: 0px;
+	background-color: #111;
+	margin: 0px;
+}
+main .m-nav .m-head .head a{
+	color: #fff;
+}
+main .m-nav .m-head .m-menu a{
+	color: #999;
+	font-size: 16px;
+}
+main .content04,.content05{
+	width: 100%;
+	background-color: #000;
+}
+main .content05 .bg01 .txt a:hover{
+	text-decoration: none;
+}
+main .content05 .bg01 .txt a{
+	color: #00ff00;
+}
+main .content07{
+	width: 100%;
+	background-color: #fff;
+}	
+main .content12,.content13,.content19{
+	width: 100%;
+	background-color: #000;
+	overflow: hidden;
+}
+main .content16{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+main .content17{
+	width: 100%;
+	background-color: #222;
+	overflow: hidden;
+}
+main .content17 .other hr{
+	border-top: 1px solid #333;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+main .content17 .other p{
+	text-align: left;
+	font-size: 16px;
+	color: #999;
+}
+main .content17 .other .system,.pro,.chi,.card,.screen,.sto,.mo,.battery,.keyboard,.touch,.connect,.input,.audio,.fea,.shell,.size,.weight,.power{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+main .content18{
+	width: 100%;
+	background-color: #111;
+	overflow: hidden;
+}
+main .content19 .txt{
+	margin: 30px auto;
+}
+main .content19 .txt p{
+	font-size: 12px;
+	color: #666;
+}
+footer{
+	width: 100%;
+	background-color: #222;
+	overflow: hidden;
+} 
+main .m-nav .m-head .m-menu ul li a:hover{
+	color: #00ff00;
+}
+
+
+
+@media (min-width: 992px) {
+	.a-nav{
+		display: none;
+	}
+	.g-nav{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+	.g-nav .g-head{
+		margin-left: 100px;
+	}
+	.g-nav .g-head .g-menu .menu{
+		padding-top: 50px;
+		position: relative;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu{
+		background-color: #111;		
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu li .g-threemenu{
+		width: 700px;
+		position: absolute;
+		top: 0px;
+		left: 150px;
+		background-color: #111;
+		z-index: 5;
+		display: none;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul{
+		float: left;
+		width: 120px;
+		margin-left: 50px;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul:nth-of-type(1){
+		margin-left: 0px;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul li{
+		padding-left: 10px;
+		width: 160px;
+		margin-bottom: 10px;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul li:nth-of-type(1){
+		border-top: 1px solid #fff;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul li a:hover{
+		text-decoration: none;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul li a{
+		font-size: 14px;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul h4{
+		color: #00ff00;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		font-size: 14px;
+		padding-left: 10px;
+	}
+	main .content01{
+		width: 100%;
+		height: 800px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/34.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+		margin-top: 100px;
+		display: block;
+	}	
+	main .content01 .bg01{
+		display: none;
+	}
+	main .m-nav .m-menu ul .line{
+		border-bottom: 3px solid #00ff00;
+	}
+	main .m-nav .m-head .head a{
+		margin-left: 50px;
+	}
+	main .content02{
+		width: 100%;
+		height: 600px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/36.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}	
+	main .content02 .bg02 img{
+		display: none;
+	}
+	main .content02 .bg02{
+		overflow: hidden;
+	}
+	main .content02 .bg02 .txt{
+		width: 320px;
+		color: #fff;
+		margin-top: 200px;
+		margin-left: 120px;
+	}
+	main .content02 .bg02 .txt h1{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	main .content02 .bg02 .txt p{
+		line-height: 25px;
+		font-size: 14px;
+		text-align: left;
+	}
+	main .content03{
+		width: 100%;
+		height: 1050px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/26.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+		overflow: hidden;
+	}
+	main .content03 .bg03 img{
+		display: none;
+	}
+	main .content03 .bg03{
+		color: #fff;
+		margin-top: 50px;
+	}
+	main .content03 .bg03 h2{
+		font-size: 25px;
+		width: 100px;
+		margin: 20px auto;
+	}
+	main .content03 .bg03 p{
+		width: 400px;
+		margin-top: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		color: #666;
+	}
+	main .content03 .bg03 .txt .data .data01 .number{
+		font-size: 90px;
+	}
+	main .content03 .bg03 .txt .data .data01 .hours{
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01 p{
+		color: #fff;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(1) p{
+		font-size: 16px;
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(2) p{
+		width: 180px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(3) p{
+		width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(4) p{
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content04 .pic{
+		margin-top: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content04 .pic .pic01{
+		background-color: #000;
+		border: none;
+		border-radius: 0px;
+		margin: 0px;
+		padding-bottom: 50px;
+	}
+	main .content04 .pic .pic01 h3,p{
+		color: #fff;
+		text-align: center;
+		width: 100%;
+	}
+	main .content04 .pic .pic01 h3{
+		font-size: 30px;
+		margin: 20px 0px;
+	}
+	main .content04 .pic .pic01 p{
+		font-size: 20px;
+		color: #999;
+	}
+	main .content05{
+		width: 100%;
+		height: 427px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/28.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content05 .bg01 img{
+		display: none;
+	}
+	main .content05 .bg01 .txt{
+		width: 280px;
+		float: right;
+		color: #fff;
+		margin-top: 150px;
+		margin-right: 150px;	
+	}
+	main .content05 .bg01 .txt h3{
+		font-size: 30px;
+		font-weight: 900;
+		margin-bottom: 20px;
+	}
+	main .content05 .bg01 .txt p{
+		text-align: left;
+		color: #999;
+		margin-bottom: 20px;
+		line-height: 25px;
+	}
+	main .content06{
+		width: 100%;
+		height: 1020px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/40.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content06 .bg01 img{
+		display: none;
+	}
+	main .content06 .bg01 .txt{
+		padding-top: 50px;
+		text-align: center;
+		color: #000;
+	}
+	main .content06 .bg01 .txt h2{
+		font-size: 35px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	main .content06 .bg01 .txt p{
+		color: #000;
+		font-size: 22px;
+		margin-bottom: 40px;
+	}
+	main .content06 .bg01 .txt .data .number{
+		font-size: 70px;
+	}
+	main .content06 .bg01 .txt .data .hours{
+		font-size: 20px;
+		font-weight: 400;
+	}
+	main .content06 .bg02{
+		max-width: 1200px;
+		position: absolute;
+		bottom: 10px;
+	}
+	main .content06 .bg02 .small{
+		display: none;
+	}
+	main .content06 .bg02 .left{
+		width: 500px;
+		padding-left: 100px;
+	}
+	main .content06 .bg02 .right{
+		float: right;
+	}
+	main .content06 .bg02 .left p{
+		color: #999;
+		font-size: 12px;
+	}
+	main .content06 .bg02 .right p{
+		color: #000;
+	}
+	main .content07{
+		overflow: hidden;
+	}
+	main .content07 .cp{
+		padding-top: 70px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+		margin-bottom: 100px;
+		width: 970px;
+	}
+	main .content07 .cp .cp01{
+		border: none;
+		border-radius: 0px;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+	main .content07 .cp .cp01 img{
+		width: 400px;
+	}
+	main .content07 .cp .cp01 p{
+		width: 400px;
+		color: #000;
+		font-size: 19px;
+		margin: 0px auto;
+	}
+	main .content07 .cp .cp01 h3{
+		color: #000;
+		font-size: 24px;
+		margin: 10px 0px;
+	}
+	main .content07 .cp .cp01 div{
+		padding: 0px;
+	}
+	main .content08{
+		width: 100%;
+		height: 1287px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/45.jpg') no-repeat;
+		background-position: center bottom;
+		position: relative;
+		top: 0px;
+	}
+	main .content08 .performance{
+		max-width: 970px;
+	}
+	main .content08 .performance .text h1{
+		font-size: 35px;
+		color: #000;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	main .content08 .performance .text p{
+		color: #000;
+		font-size: 20px;
+		width: 100%;
+	}
+	main .content08 .performance .photo{
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	main .content08 .performance .photo img{
+		margin-right: 50px;
+	}
+	main .content08 .performance .photo .memory{
+		margin-top: 20px;
+		max-width: 1200px;
+	}
+	main .content08 .performance .photo .memory .mem01 p{
+		color: #000;
+		font-size: 14px;
+		margin-top: -20px;
+	}
+	main .content08 .performance .photo .memory .mem01 .number{
+		font-size: 70px;
+		color: #000;
+	}
+	main .content08 .performance .photo .memory .mem01 .hours{
+		font-size: 20px;
+	}
+	main .content08 .performance .photo .memory .mem01 .add{
+		font-size: 40px;
+		color: #000;
+	}
+	main .content08>img{
+		display: none;
+	}
+	main .content09{
+		width: 100%;
+		height: 1146px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/46.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content09 .bg01{
+		overflow: hidden;
+	}
+	main .content09 .bg01 img{
+		display: none;
+	}
+	main .content09 .bg01 .txt{
+		margin-top: 30px;
+		max-width: 970px;
+	}
+	main .content09 .bg01 .txt h1{
+		color: #fff;
+		text-align: center;
+		font-size: 35px;
+		margin-bottom: 10px;
+	} 
+	main .content09 .bg01 .txt p{
+		font-size: 18px;
+		width: 900px;
+		line-height: 26px;
+	}
+	main .content09 .bg02{
+		width: 100%;
+		position: absolute;
+		bottom: 30px;
+	}
+	main .content09 .bg02 .advantage{
+		margin: 0px auto;
+		color: #999;
+		max-width: 970px;
+	}
+	main .content09 .bg02 .advantage .ad01 span{
+		display: block;
+		font-size: 18px;
+		text-indent: -1em;
+		padding-left: 10px;
+		line-height: 26px;
+	}
+	main .content09 .bg02 .advantage .ad01 .one{
+		height: 90px;
+	}
+	main .content09 .bg02 .advantage .ad01:nth-of-type(3) .one{
+		height: 40px;
+	}
+	main .content10{
+		width: 100%;
+		height: 840px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/30.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content10 .bg01 img{
+		display: none;
+	}
+	main .content10 .bg01{
+		overflow: hidden;
+		width: 100%;
+	}
+	main .content10 .bg01 .txt{
+		margin-top: 30px;
+		text-align: center;
+		max-width: 970px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content10 .bg01 .txt h1{
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	main .content10 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+	}
+
+	main .content11{
+		width: 100%;
+		height: 1047px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/58.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content11 .bg01 img{
+		display: none;
+	}
+	main .content11 .bg01{
+		width: 100%;
+		overflow: hidden;
+	}
+	main .content11 .bg01 .txt{
+		margin-top: 30px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content11 .bg01 .txt h1{
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	main .content11 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+	}
+	main .content11 .bg02{
+		width: 100%;
+		position: absolute;
+		bottom: 40px;
+	}
+	main .content11 .bg02 .kb{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content11 .bg02 .kb .kb01{
+		border-radius: 0px;
+		border: none;
+		background-color: transparent;
+	}
+	main .content11 .bg02 .kb .kb01 p{
+		color: #999;
+	}
+
+	main .content12 .txt{
+		margin: 20px auto;
+		max-width: 970px;
+	}
+	main .content12 .txt .text .te01{
+		margin-bottom: 20px;
+	}
+	main .content12 .txt .text h1{
+		text-align: center;
+		color: #fff;
+		margin-bottom: 10px;
+		font-size: 25px;
+	}
+	main .content12 .txt .text p{
+		font-size: 18px;
+		color: #999;
+	}
+	main .content12 .txt .line{
+		border-bottom: 1px solid #666;
+		margin-top: 30px;
+	}
+	main .content13 .con{
+		max-width: 970px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+	main .content13 .con .con01{
+		background-color: transparent;
+		border-radius: 0px;
+		border: none;
+		color: #fff;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	}
+	main .content13 .con .con01 h3{
+		color: #fff;
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	main .content13 .con .con01 h4{
+		color: #fff;
+		font-size: 16px;
+	}
+	main .content13 .con .con01 p{
+		color: #999;
+		font-size: 18px;
+	}
+	main .content14{
+		width: 100%;
+		height: 757px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/51.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content14 .bg01>img{
+		display: none;
+	}
+	main .content14 .bg01{
+		overflow: hidden;
+		width: 100%;
+	}
+	main .content14 .bg01 .txt{
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	 	max-width: 850px;
+	}
+	main .content14 .bg01 .txt h1{
+		color: #fff;
+		text-align: center;
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	main .content14 .bg01 .txt p{
+		color: #999;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	main .content14 .bg01 .txt .interface .in01{
+		border: none;
+		border-radius: 0px;
+		background-color: transparent;
+		margin: 0px;
+	}
+	main .content14 .bg01 .txt .interface .in01 h3{
+		color: #fff;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	main .content14 .bg01 .txt .interface .in01 p{
+		color: #fff;
+		font-size: 16px;
+	}
+	main .content14 .bg02{
+		width: 100%;
+		position: absolute;
+		bottom: 30px;
+	}
+	main .content14 .bg02 .it{
+		max-width: 970px;
+		margin: 0px auto;
+	}
+	main .content14 .bg02 .it .one p{
+		color: #999;
+		font-size: 18px;
+		text-align: left;
+	}
+	main .content14 .bg02 .it .one{
+		padding: 0px;
+	}
+	main .content15{
+		width: 100%;
+		height: 499px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/55.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content15 .bg01 img{
+		display: none;
+	}
+	main .content15 .bg01{
+		width: 100%;
+		overflow: hidden;
+	}
+	main .content15 .bg01 .txt{
+		max-width: 500px;
+		margin-top: 150px;
+		margin-left: 150px;
+	}
+	main .content15 .bg01 .txt h3{
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	main .content15 .bg01 .txt h1{
+		color: #fff;
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	main .content15 .bg01 .txt p{
+		color: #999;
+		font-size: 19px;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+	main .content15 .bg01 .txt a{
+		color: #00ff00;
+		font-size: 16px;
+	}
+	main .content15 .bg01 .txt a:hover{
+		text-decoration: none;
+	}	
+	main .content16 .win10{
+		margin: 20px auto;
+		max-width: 970px;
+	}
+	main .content16 .win10 .pic{
+		float: left;
+		margin-right: 30px;
+	}
+	main .content16 .win10 .txt{
+		width: 400px;
+		float: left;
+		margin-top: 50px;
+	}
+	main .content16 .win10 .txt h1{
+		font-size: 35px;
+		color: #000;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	main .content16 .win10 .txt p{
+		color: #000;
+		font-size: 16px;
+		text-align: left;
+		font-weight: 300;
+	}
+
+	main .content17 .Tec{
+		margin-top: 30px;
+		max-width: 970px;
+	}
+	main .content17 .Tec h1{
+		text-align: center;
+		color: #00ff00;
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+	main .content17 .Tec .ver .ver01{
+		border-radius: 0px;
+		border: none;
+		background-color: transparent;
+		margin: 0px;
+	}
+	main .content17 .Tec .ver .ver01 h3{
+		color: #666;
+		text-align: center;
+		font-size: 16px;
+	}
+	main .content17 .other{
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 970px;
+		padding: 0px;
+	}
+	main .content17 .other h1{
+		color: #fff;
+		font-size: 25px;
+	}
+	main .content17 .other .card .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .card .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .screen .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .screen .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .sto .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .sto .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .battery .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .battery .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .keyboard .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .keyboard .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .input .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .input .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .shell .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .shell .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .size .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .size .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .weight .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .weight .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .power .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .power .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content18 .pho{
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 970px;
+	}
+	main .content18 .pho h1{
+		color: #00ff00;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	main .content18 .pho .pho01{
+		margin-bottom: 50px;
+	}
+	main .content18 .pho .pho01 .pho02{
+		border-radius: 0px;
+		border: none;
+		margin: 0px;
+		background-color: transparent;
+		padding: 0px;
+	}
+
+
+	footer .footer{
+		width: 500px;
+		margin: 40px auto;
+	}
+	footer .one{
+		width: 100%;
+		margin-bottom: 10px;
+		padding-top: 20px;
+		color: #00ff00;
+		padding-left: 25px;
+	}
+	footer .one ul{
+		overflow: hidden;
+	}
+	footer .one ul div{
+		float: left;
+		margin-right: 20px;
+		line-height: 22px;
+		font-size: 12px;
+	}
+	footer .one ul li{
+		float: left;
+		border-right: 1px solid #666;
+		padding: 0px 10px;
+	}
+	footer .one ul li a{
+		color: #00ff00;
+		font-size: 12px;
+	}
+	footer .one ul li a:hover{
+		text-decoration: none;
+	}
+	footer .one ul li:nth-of-type(4){
+		border-right: none;
+	}
+	footer .two{
+		width: 100%;
+		padding-bottom: 30px;
+		color: #666;
+		font-size: 12px;
+	}
+	footer .two a{
+		font-weight: bold;
+		color: #666;
+	}
+	footer .two p{
+		color: #666;
+	}
+	footer .two a:hover{
+		text-decoration: none;
+		color:  #00ff00;
+	}
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px){
+	.a-nav{
+		display: none;
+	}
+	.g-nav{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+	.g-nav .g-head .head .logo{
+		padding: 0px;
+	}
+	.g-nav .g-head .head .logo img{
+		width: 40px;
+		height: 40px;
+	}
+	.g-nav .g-head{
+		margin-left: 100px;
+	}
+	.g-nav .g-head .g-menu .menu{
+		position: relative;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu{
+		background-color: #111;		
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu li .g-threemenu{
+		width: 700px;
+		position: absolute;
+		top: 0px;
+		left: 150px;
+		background-color: #111;
+		z-index: 5;
+		display: none;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul{
+		float: left;
+		width: 120px;
+		margin-left: 50px;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul:nth-of-type(1){
+		margin-left: 0px;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul li{
+		padding-left: 10px;
+		width: 160px;
+		margin-bottom: 10px;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul li:nth-of-type(1){
+		border-top: 1px solid #fff;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul li a:hover{
+		text-decoration: none;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul li a{
+		font-size: 14px;
+	}
+	.g-nav .g-head .g-menu .menu li .g-twomenu .g-threemenu ul h4{
+		color: #00ff00;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		font-size: 14px;
+		padding-left: 10px;
+	}
+	main .content01 .bg01{
+		display: none;
+	}
+	main .content01{
+		width: 100%;
+		height: 800px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/34.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+		margin-top: 50px;
+		display: block;
+	}	
+	main .content02{
+		width: 100%;
+		height: 600px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/36.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}	
+	main .content02 .bg02 img{
+		display: none;
+	}
+	main .content02 .bg02{
+		overflow: hidden;
+	}
+	main .content02 .bg02 .txt{
+		width: 320px;
+		color: #fff;
+		margin-top: 200px;
+		margin-left: 10px;
+	}
+	main .content02 .bg02 .txt h1{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	main .content02 .bg02 .txt p{
+		line-height: 25px;
+		font-size: 14px;
+		text-align: left;
+	}
+	main .content03{
+		width: 100%;
+		height: 1050px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/26.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+		overflow: hidden;
+	}
+	main .content03 .bg03 img{
+		display: none;
+	}
+	main .content03 .bg03{
+		color: #fff;
+		margin-top: 50px;
+	}
+	main .content03 .bg03 h2{
+		font-size: 25px;
+		width: 100px;
+		margin: 20px auto;
+	}
+	main .content03 .bg03 p{
+		width: 400px;
+		margin-top: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		color: #666;
+	}
+	main .content03 .bg03 .txt .data{
+		min-width: 1000px;
+	}
+	main .content03 .bg03 .txt .data .data01 .number{
+		font-size: 90px;
+	}
+	main .content03 .bg03 .txt .data .data01 .hours{
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01 p{
+		color: #fff;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(1) p{
+		font-size: 16px;
+		width: 330px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(2) p{
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(3) p{
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(4) p{
+		width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content04 .pic{
+		margin-top: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content04 .pic .pic01{
+		background-color: #000;
+		border: none;
+		border-radius: 0px;
+		margin: 0px;
+		padding-bottom: 50px;
+	}
+	main .content04 .pic .pic01 h3,p{
+		color: #fff;
+		text-align: center;
+		width: 100%;
+	}
+	main .content04 .pic .pic01 h3{
+		font-size: 30px;
+		margin: 20px 0px;
+	}
+	main .content04 .pic .pic01 p{
+		font-size: 20px;
+		color: #999;
+	}
+	main .content05{
+		width: 100%;
+		height: 427px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/28.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content05 .bg01 img{
+		display: none;
+	}
+	main .content05 .bg01 .txt{
+		width: 280px;
+		float: right;
+		color: #fff;
+		margin-top: 150px;
+		margin-right: 150px;	
+	}
+	main .content05 .bg01 .txt h3{
+		font-size: 30px;
+		font-weight: 900;
+		margin-bottom: 20px;
+	}
+	main .content05 .bg01 .txt p{
+		text-align: left;
+		color: #999;
+		margin-bottom: 20px;
+		line-height: 25px;
+	}	
+	main .content06{
+		width: 100%;
+		height: 1020px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/40.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content06 .bg01 img{
+		display: none;
+	}
+	main .content06 .bg01 .txt{
+		padding-top: 50px;
+		text-align: center;
+		color: #000;
+	}
+	main .content06 .bg01 .txt h2{
+		font-size: 35px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	main .content06 .bg01 .txt p{
+		color: #000;
+		font-size: 22px;
+		margin-bottom: 40px;
+	}
+	main .content06 .bg01 .txt .data .number{
+		font-size: 70px;
+	}
+	main .content06 .bg01 .txt .data .hours{
+		font-size: 20px;
+		font-weight: 400;
+	}
+	main .content06 .bg02{
+		position: absolute;
+		bottom: 10px;
+	}
+	main .content06 .bg02 .left{
+		width: 400px;
+		float: left;
+	}
+	main .content06 .bg02 .right{
+		float: right;
+		padding-top: 10px;
+	}
+	main .content06 .bg02 .left p{
+		color: #999;
+		font-size: 12px;
+	}
+	main .content06 .bg02 .right p{
+		color: #000;
+	}
+	main .content06 .bg02 .small{
+		display: none;
+	}
+	main .content07{
+		width: 100%;
+	}
+	main .content07 .cp{
+		padding-top: 50px;
+		margin: 0px auto;
+		max-width: 750px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	main .content07 .cp .cp01{
+		border: none;
+		border-radius: 0px;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+	main .content07 .cp .cp01 img{
+		width: 400px;
+	}
+	main .content07 .cp .cp01 div{
+		padding: 0px;
+	}
+	main .content07 .cp .cp01 p{
+		color: #000;
+		font-size: 19px;
+		margin: 0px auto;
+	}
+	main .content07 .cp .cp01 h3{
+		color: #000;
+		font-size: 24px;
+		margin: 10px 0px;
+	}
+	main .content08{
+		width: 100%;
+		height: 1287px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/45.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+		overflow: hidden;
+	}
+	main .content08 .performance{
+		margin-top: 30px;
+		max-width: 970px;
+	}
+	main .content08 .performance .text h1{
+		font-size: 35px;
+		color: #000;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	main .content08 .performance .text p{
+		color: #000;
+		font-size: 20px;
+		width: 100%;
+	}
+	main .content08 .performance .photo{
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	main .content08 .performance .photo img{
+		margin-right: 50px;
+	}
+	main .content08 .performance .photo .memory{
+		margin-top: 20px;
+		max-width: 1200px;
+	}
+	main .content08 .performance .photo .memory .mem01 p{
+		color: #000;
+		font-size: 14px;
+		margin-top: -20px;
+	}
+	main .content08 .performance .photo .memory .mem01 .number{
+		font-size: 70px;
+		color: #000;
+	}
+	main .content08 .performance .photo .memory .mem01 .hours{
+		font-size: 20px;
+	}
+	main .content08 .performance .photo .memory .mem01 .add{
+		font-size: 40px;
+		color: #000;
+	}
+	main .content08>img{
+		display: none;
+	}
+	main .content09{
+		width: 100%;
+		height: 1146px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/46.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content09 .bg01{
+		overflow: hidden;
+	}
+	main .content09 .bg01 img{
+		display: none;
+	}
+	main .content09 .bg01 .txt{
+		margin-top: 30px;
+	}
+	main .content09 .bg01 .txt h1{
+		color: #fff;
+		text-align: center;
+		font-size: 35px;
+		margin-bottom: 10px;
+	} 
+	main .content09 .bg01 .txt p{
+		font-size: 18px;
+		line-height: 26px;
+	}
+	main .content09 .bg02{
+		width: 100%;
+		position: absolute;
+		bottom: 30px;
+	}
+	main .content09 .bg02 .advantage{
+		margin: 0px auto;
+		color: #999;
+	}
+	main .content09 .bg02 .advantage .ad01 span{
+		display: block;
+		font-size: 18px;
+		text-indent: -1em;
+		padding-left: 10px;
+		line-height: 26px;
+	}
+	main .content09 .bg02 .advantage .ad01 .one{
+		height: 70px;
+	}
+	main .content09 .bg02 .advantage .ad01:nth-of-type(3){
+		margin-top: 30px;
+	}
+	main .content09 .bg02 .advantage .ad01:nth-of-type(3) .one{
+		height: 40px;
+	}
+	main .content10{
+		width: 100%;
+		height: 840px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/30.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content10 .bg01 img{
+		display: none;
+	}
+	main .content10 .bg01{
+		overflow: hidden;
+		width: 100%;
+	}
+	main .content10 .bg01 .txt{
+		margin-top: 30px;
+		text-align: center;
+		max-width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content10 .bg01 .txt h1{
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	main .content10 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+	}
+
+	main .content11{
+		width: 100%;
+		height: 1047px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/58.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content11 .bg01 img{
+		display: none;
+	}
+	main .content11 .bg01{
+		width: 100%;
+		overflow: hidden;
+	}
+	main .content11 .bg01 .txt{
+		margin-top: 30px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content11 .bg01 .txt h1{
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	main .content11 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+	}
+	main .content11 .bg02{
+		width: 100%;
+		position: absolute;
+		bottom: 40px;
+	}
+	main .content11 .bg02 .kb{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content11 .bg02 .kb .kb01{
+		border-radius: 0px;
+		border: none;
+		background-color: transparent;
+	}
+	main .content11 .bg02 .kb .kb01 p{
+		color: #999;
+	}
+	main .content12 .txt{
+		margin: 20px auto;
+		max-width: 970px;
+	}
+	main .content12 .txt .text .te01{
+		margin-bottom: 20px;
+	}
+	main .content12 .txt .text h1{
+		text-align: center;
+		color: #fff;
+		margin-bottom: 10px;
+		font-size: 25px;
+	}
+	main .content12 .txt .text p{
+		font-size: 18px;
+		color: #999;
+	}
+	main .content12 .txt .line{
+		border-bottom: 1px solid #666;
+		margin-top: 30px;
+	}
+	main .content13 .con{
+		max-width: 970px;
+		margin: 0px auto;
+	}
+	main .content13 .con .con01{
+		background-color: transparent;
+		border-radius: 0px;
+		border: none;
+		color: #fff;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	}
+	main .content13 .con .con01 h3{
+		color: #fff;
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	main .content13 .con .con01 h4{
+		color: #fff;
+		font-size: 16px;
+	}
+	main .content13 .con .con01 p{
+		color: #999;
+		font-size: 18px;
+	}
+
+	main .content14{
+		width: 100%;
+		height: 757px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/51.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content14 .bg01>img{
+		display: none;
+	}
+	main .content14 .bg01{
+		overflow: hidden;
+		width: 100%;
+	}
+	main .content14 .bg01 .txt{
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	 	max-width: 850px;
+	}
+	main .content14 .bg01 .txt h1{
+		color: #fff;
+		text-align: center;
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	main .content14 .bg01 .txt p{
+		color: #999;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	main .content14 .bg01 .txt .interface .in01{
+		border: none;
+		border-radius: 0px;
+		background-color: transparent;
+		margin: 0px;
+	}
+	main .content14 .bg01 .txt .interface .in01 h3{
+		color: #fff;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	main .content14 .bg01 .txt .interface .in01 p{
+		color: #fff;
+		font-size: 16px;
+	}
+	main .content14 .bg02{
+		width: 100%;
+		position: absolute;
+		bottom: 30px;
+	}
+	main .content14 .bg02 .it{
+		margin: 0px auto;
+	}
+	main .content14 .bg02 .it .one{
+		padding: 0px;
+	}
+	main .content14 .bg02 .it .one p{
+		color: #999;
+		font-size: 18px;
+		text-align: left;
+	}
+
+	main .content15{
+		width: 100%;
+		height: 499px;
+		background-size: 100% 100%;
+		background: url('../../imges/main/55.jpg') no-repeat;
+		background-position: center center;
+		position: relative;
+		top: 0px;
+	}
+	main .content15 .bg01 img{
+		display: none;
+	}
+	main .content15 .bg01{
+		width: 100%;
+		overflow: hidden;
+	}
+	main .content15 .bg01 .txt{
+		max-width: 400px;
+		margin-top: 100px;
+		margin-left: 80px;
+	}
+	main .content15 .bg01 .txt h3{
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	main .content15 .bg01 .txt h1{
+		color: #fff;
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	main .content15 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+	main .content15 .bg01 .txt a{
+		color: #00ff00;
+		font-size: 16px;
+	}
+	main .content15 .bg01 .txt a:hover{
+		text-decoration: none;
+	}
+
+	main .content16 .win10{
+		margin: 20px auto;
+		max-width: 750px;
+	}
+	main .content16 .win10 .pic{
+		float: left;
+		margin-right: 30px;
+		width: 340px;
+	}
+	main .content16 .win10 .pic img{
+		width: 100%;
+	}
+	main .content16 .win10 .txt{
+		width: 320px;
+		float: left;
+		margin-top: 50px;
+	}
+	main .content16 .win10 .txt h1{
+		font-size: 35px;
+		color: #000;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	main .content16 .win10 .txt p{
+		color: #000;
+		font-size: 16px;
+		text-align: left;
+		font-weight: 300;
+	}
+
+	main .content17 .Tec.Tec{
+		margin-top: 30px;
+	}
+	main .content17 .Tec.Tec h1{
+		text-align: center;
+		color: #00ff00;
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+	main .content17 .Tec.Tec .ver .ver01{
+		border-radius: 0px;
+		border: none;
+		background-color: transparent;
+		margin: 0px;
+	}
+	main .content17 .Tec.Tec .ver .ver01 h3{
+		color: #666;
+		text-align: center;
+		font-size: 16px;
+	}
+	main .content17 .other{
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0px;
+		max-width: 750px;
+	}
+	main .content17 .other h1{
+		color: #fff;
+		font-size: 25px;
+	}
+	main .content17 .other .card .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .card .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .screen .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .screen .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .sto .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .sto .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .battery .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .battery .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .keyboard .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .keyboard .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .input .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .input .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .shell .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .shell .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .size .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .size .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .weight .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .weight .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .power .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .power .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content18 .pho{
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 970px;
+	}
+	main .content18 .pho h1{
+		color: #00ff00;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	main .content18 .pho .pho01{
+		margin-bottom: 50px;
+	}
+	main .content18 .pho .pho01 .pho02{
+		border-radius: 0px;
+		border: none;
+		margin: 0px;
+		background-color: transparent;
+		padding: 0px;
+	}
+	footer .footer{
+		width: 500px;
+		margin: 40px auto;
+	}
+	footer .one{
+		width: 100%;
+		margin-bottom: 10px;
+		padding-top: 20px;
+		color: #00ff00;
+		padding-left: 25px;
+	}
+	footer .one ul{
+		overflow: hidden;
+	}
+	footer .one ul div{
+		float: left;
+		margin-right: 20px;
+		line-height: 22px;
+		font-size: 12px;
+	}
+	footer .one ul li{
+		float: left;
+		border-right: 1px solid #666;
+		padding: 0px 10px;
+	}
+	footer .one ul li a{
+		color: #00ff00;
+		font-size: 12px;
+	}
+	footer .one ul li a:hover{
+		text-decoration: none;
+	}
+	footer .one ul li:nth-of-type(4){
+		border-right: none;
+	}
+	footer .two{
+		width: 100%;
+		padding-bottom: 30px;
+		color: #666;
+		font-size: 12px;
+	}
+	footer .two a{
+		font-weight: bold;
+		color: #666;
+	}
+	footer .two p{
+		color: #666;
+	}
+	footer .two a:hover{
+		text-decoration: none;
+		color:  #00ff00;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.g-nav{
+		display: none;
+	}
+	.a-nav{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background-color: #111;
+		border: none;
+		border-radius: 0px;
+	}
+	.a-nav .a-head .head{
+		width: 100%;
+	}
+	.a-nav .a-head .head .logo{
+		display: block;
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+		padding: 0px;
+	}
+	.a-nav .a-head .head .logo img{
+		width: 40px;
+		height: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.a-nav .a-head .head .btn{
+		width: 30px;
+		height: 30px;
+		background-color: red;
+		display: block;
+		text-align: center;
+		font-size: 20px;
+		line-height: 10px;
+	}
+	.a-nav .a-head .a-menu .menu li .trangle{
+		  display: inline-block;
+		  width: 15px;
+		  height:15px;
+		  border: 3px #fff solid;
+		  border-top-color: transparent;
+		  border-left-color: transparent;
+		  transform: rotate(45deg) ;
+		  float: right;
+		  margin-right: 10px;
+	}
+	.a-nav .a-head .a-menu .menu li .trangle:hover{
+		border-color: #00ff00;
+		border-top-color: transparent;
+		border-left-color: transparent;
+	}
+	.a-nav .a-head .a-menu .menu li>a{
+		color: #fff;
+		font-size: 16px;
+	}
+	.a-nav .a-head .a-menu .menu li a:hover{
+		color: #00ff00;
+		font-size: 18px;
+	}
+	.a-nav .a-head .a-menu .menu li .a-twomenu li a{
+		font-size: 14px;
+	}
+	.a-nav .a-head .a-menu .menu li .a-twomenu li a:hover{
+		font-size: 16px;
+	}
+	main{
+		width: 100%;
+		overflow: hidden;
+	}
+	main .content01 .bg01{
+		width: 100%;
+	}
+	main .content01 .bg01 img{
+		width: 100%;
+	}
+	main .m-nav{
+		min-width: 380px;
+	}
+	main .m-nav .m-head .head .m-btn{
+		float: left;
+		border: none;
+		background-color: #333;
+		width: 50px;
+		height: 35px;
+	} 
+	main .m-nav .m-head .head .m-btn span{
+		background-color: #fff;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content02{
+		width: 100%;
+	}
+	main .content02 .bg02 img{
+		width: 100%;
+	}
+	main .content02 .bg02{
+		overflow: hidden;
+	}
+	main .content02 .bg02 .txt{
+		width: 100%;
+		color: #fff;
+		background-color: #111;
+		padding: 20px 10px;
+	}
+	main .content02 .bg02 .txt span{
+		overflow: hidden;
+		display: block;
+	}
+	main .content02 .bg02 .txt h1{
+		margin-bottom: 10px;
+		font-size: 30px;
+		float: left;
+	}
+	main .content02 .bg02 .txt h1:nth-of-type(1){
+		margin-right: 10px;
+	}
+	main .content02 .bg02 .txt p{
+		font-size: 14px;
+		line-height: 25px;
+		text-align: left;
+	}
+	main .content03{
+		width: 100%;
+	}
+	main .content03 .bg03 img{
+		width: 100%;
+	}
+	main .content03 .bg03{
+		color: #fff;
+		padding: 0px;
+	}
+	main .content03 .bg03 .txt{
+		padding-top: 50px;
+		background-color: #111;
+	}
+	main .content03 .bg03 h2{
+		font-size: 25px;
+		width: 100px;
+		margin: 20px auto;
+	}
+	main .content03 .bg03 p{
+		width: 400px;
+		margin-top: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		color: #666;
+	}
+ 	 main .content03 .bg03 .txt .data{
+		min-width: 500px;
+		margin-left: 10px;
+	}
+	main .content03 .bg03 .txt .data .data01 .number{
+		font-size: 80px;
+	}
+	main .content03 .bg03 .txt .data .data01 .hours{
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01 p{
+		color: #fff;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(1) p{
+		font-size: 16px;
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(2) p{
+		width: 150px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(3) p{
+		width: 180px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content03 .bg03 .txt .data .data01:nth-of-type(4) p{
+		width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		font-size: 16px;
+	}
+	main .content04 .pic .pic01{
+		background-color: #111;
+		border: none;
+		border-radius: 0px;
+		margin: 0px;
+		padding-bottom: 50px;
+	}
+	main .content04 .pic>div{
+		padding: 0px;
+	}
+	main .content04 .pic .pic01 div{
+		background-color: #111;
+	}
+	main .content04 .pic .pic01 h3,p{
+		color: #fff;
+		text-align: center;
+		width: 100%;
+	}
+	main .content04 .pic .pic01 h3{
+		font-size: 30px;
+		margin: 20px 0px;
+	}
+	main .content04 .pic .pic01 p{
+		font-size: 20px;
+		color: #999;
+	}
+	main .cotent05{
+		width: 100%;
+	}
+	main .content05 .bg01 img{
+		width: 100%;
+	}
+	main .content05 .bg01 .txt{
+		width: 100%;
+		color: #fff;
+		background-color: #111;	
+		padding-left: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	main .content05 .bg01 .txt h3{
+		font-size: 30px;
+		font-weight: 900;
+		margin-bottom: 20px;
+	}
+	main .content05 .bg01 .txt p{
+		color: #999;
+		margin-bottom: 20px;
+		text-align: left;
+	}
+	main .content06{
+		width: 100%;
+	}
+	main .content06 .bg01 img{
+		width: 100%;
+	}
+	main .content06 .bg01 .txt{
+		padding-top: 50px;
+		text-align: center;
+		color: #fff;
+	}
+	main .content06 .bg01 .txt h2{
+		font-size: 35px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	main .content06 .bg01 .txt p{
+		color: #999;
+		font-size: 20px;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+	main .content06 .bg01 .txt .data .number{
+		font-size: 70px;
+	}
+	main .content06 .bg01 .txt .data .hours{
+		font-size: 20px;
+		font-weight: 400;
+	}
+	main .content06 .bg02 .left,.right{
+		display: none;
+	}
+	main .content06 .bg02 .small{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	main .content06 .bg02 .small p{
+		color: #999;
+		width: 500px;
+	}
+
+	main .content07 .cp{
+		padding-top: 50px;
+		margin: 0px auto;
+	}
+	main .content07 .cp .cp01{
+		border: none;
+		border-radius: 0px;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+	main .content07 .cp .cp01 img{
+		width: 350px;
+	}
+	main .content07 .cp .cp01 p{
+		width: 350px;
+		color: #000;
+		font-size: 19px;
+		margin: 0px auto;
+	}
+	main .content07 .cp .cp01 h3{
+		color: #000;
+		font-size: 24px;
+		margin: 10px 0px;
+	}
+	main .content07 .cp .cp01 div{
+		padding: 0px;
+	}
+	main .content07 .cp>div{
+		margin-top: 20px;
+	}
+
+	main .content08{
+		width: 100%;
+	}
+	main .content08>img{
+		width: 100%;
+	}
+	main .content08 .performance{
+		margin-top: 30px;
+	}
+	main .content08 .performance .text h1{
+		font-size: 35px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	main .content08 .performance .text p{
+		color: #999;
+		font-size: 20px;
+		width: 100%;
+	}
+	main .content08 .performance .photo{
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	main .content08 .performance .photo img{
+		margin-right: 50px;
+	}
+	main .content08 .performance .photo .memory{
+		margin-top: 20px;
+	}
+	main .content08 .performance .photo .memory .mem01{
+		margin-top: 20px;
+	}
+	main .content08 .performance .photo .memory .mem01 p{
+		color: #fff;
+		font-size: 14px;
+		margin-top: -20px;
+	}
+	main .content08 .performance .photo .memory .mem01 .number{
+		font-size: 50px;
+		color: #fff;
+	}
+	main .content08 .performance .photo .memory .mem01 .hours{
+		font-size: 20px;
+		color: #fff;
+	}
+	main .content08 .performance .photo .memory .mem01 .add{
+		font-size: 40px;
+		color: #fff;
+	}
+
+	main .content09{
+		width: 100%;
+		margin-top: 30px;
+	}
+	main .content09 .bg01 img{
+		width: 100%;
+	}
+	main .content09 .bg01 .txt h1{
+		color: #fff;
+		font-size: 35px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	main .content09 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+		text-align: left;
+	}
+	main .content09 .bg02{
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	main .content09 .bg02 .advantage{
+		margin: 0px auto;
+		color: #999;
+		max-width: 380px;
+	}
+	main .content09 .bg02 .advantage .ad01{
+		margin-top: 20px;
+		height:90px; 
+	}
+	main .content09 .bg02 .advantage .ad01 span{
+		display: block;
+		font-size: 18px;
+		text-indent: -1em;
+		padding-left: 10px;
+		line-height: 26px;
+	}
+	main .content09 .bg02 .advantage .ad01 .one{
+		height: 40px;
+	}
+	main .content09 .bg02 .advantage .ad01:nth-of-type(3) .one{
+		height: 30px;
+	}
+	main .content09 .bg02 .advantage .ad01:nth-of-type(3){
+		margin-top: 40px;
+	}
+	main .content09 .bg02 .advantage .ad01:nth-of-type(2) .one{
+		height: 60px;
+	}
+	main .content10{
+		width: 100%;
+	}
+	main .content10 .bg01 img{
+		width: 100%;
+	}
+	main .content10 .bg01{
+		overflow: hidden;
+		width: 100%;
+	}
+	main .content10 .bg01 .txt{
+		margin-top: 30px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content10 .bg01 .txt h1{
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	main .content10 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+		text-align: left;
+	}
+	
+	main .content11{
+		width: 100%;
+	}
+	main .content11 .bg01 img{
+		width: 100%;
+	}
+	main .content11 .bg01{
+		width: 100%;
+		overflow: hidden;
+	}
+	main .content11 .bg01 .txt{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content11 .bg01 .txt h1{
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	main .content11 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+	}
+	main .content11 .bg02{
+		display: none;
+	}
+
+	main .content12 .txt{
+		margin: 20px auto;
+	}
+	main .content12 .txt .pic{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	main .content12 .txt .text .te01{
+		margin-bottom: 20px;
+	}
+	main .content12 .txt .text h1{
+		text-align: center;
+		color: #fff;
+		margin-bottom: 10px;
+		font-size: 25px;
+	}
+	main .content12 .txt .text p{
+		font-size: 18px;
+		color: #999;
+	}
+	main .content12 .txt .line{
+		border-bottom: 1px solid #666;
+		margin-top: 30px;
+	}
+
+	main .content13 .con{
+		max-width: 400px;
+		margin: 0px auto;
+	}
+	main .content13 .con .con01{
+		background-color: transparent;
+		border-radius: 0px;
+		border: none;
+		color: #fff;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	}
+	main .content13 .con .con01 h3{
+		color: #fff;
+		font-size: 25px;
+		margin-top: 10px;
+	}
+	main .content13 .con .con01 h4{
+		color: #fff;
+		font-size: 16px;
+	}
+	main .content13 .con .con01 p{
+		color: #999;
+		font-size: 18px;
+	}
+
+	main .content14{
+		width: 100%;
+	}
+	main .content14 .bg01>img{
+		width: 100%;
+	}
+	main .content14 .bg01{
+		overflow: hidden;
+		width: 100%;
+		background-color: #222;
+	}
+	main .content14 .bg01 .txt{
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	 	max-width: 850px;
+	}
+	main .content14 .bg01 .txt h1{
+		color: #fff;
+		text-align: center;
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	main .content14 .bg01 .txt p{
+		color: #999;
+		font-size: 20px;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	main .content14 .bg01 .txt .interface .in01{
+		border: none;
+		border-radius: 0px;
+		background-color: transparent;
+		margin: 0px;
+	}
+	main .content14 .bg01 .txt .interface .in01 h3{
+		color: #fff;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	main .content14 .bg01 .txt .interface .in01 p{
+		color: #fff;
+		font-size: 16px;
+		text-align: center;
+	}
+	main .content14 .bg02{
+		width: 100%;
+		background-color: #222;
+		overflow: hidden;
+	}
+	main .content14 .bg02 .it{
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+	main .content14 .bg02 .it .one{
+		padding: 0px;
+	}
+	main .content14 .bg02 .it .one p{
+		color: #999;
+		font-size: 18px;
+		text-align: left;
+	}
+	main .content15{
+		width: 100%;
+	}
+	main .content15 .bg01 img{
+		width: 100%;
+	}
+	main .content15 .bg01{
+		width: 100%;
+		overflow: hidden;
+	}
+	main .content15 .bg01 .txt{
+		margin-bottom: 10px;
+	}
+	main .content15 .bg01 .txt h3{
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	main .content15 .bg01 .txt h1{
+		color: #fff;
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	main .content15 .bg01 .txt p{
+		color: #999;
+		font-size: 18px;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+	main .content15 .bg01 .txt a{
+		color: #00ff00;
+		font-size: 16px;
+	}
+	main .content15 .bg01 .txt a:hover{
+		text-decoration: none;
+	}
+
+	main .content16 .win10{
+		margin: 20px auto;
+	}
+	main .content16 .win10 .pic{
+		width: 470px;
+		margin: 0px auto;
+	}
+	main .content16 .win10 .txt{
+		margin-top: 30px;
+		margin-left: 20px;
+	}
+	main .content16 .win10 .txt h1{
+		font-size: 35px;
+		color: #000;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	main .content16 .win10 .txt p{
+		color: #000;
+		font-size: 16px;
+		text-align: left;
+		font-weight: 300;
+	}
+
+	main .content17 .Tec{
+		margin-top: 30px;
+	}
+	main .content17 .Tec h1{
+		text-align: center;
+		color: #00ff00;
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+	main .content17 .Tec .ver .ver01{
+		border-radius: 0px;
+		border: none;
+		background-color: transparent;
+		margin: 0px;
+	}
+	main .content17 .Tec.Tec .ver .ver01 h3{
+		color: #666;
+		text-align: center;
+		font-size: 16px;
+	}
+
+	main .content17 .other{
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main .content17 .other h1{
+		color: #fff;
+		font-size: 20px;
+	}
+	main .content17 .other .card .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .card .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .screen .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .screen .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .sto .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .sto .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .battery .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .battery .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .keyboard .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .keyboard .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .input .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .input .txt .txt01{
+		border-right: 1px solid #333;
+	}
+	main .content17 .other .shell .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .shell .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .size .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .size .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .weight .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .weight .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content17 .other .power .txt{
+		margin-top: 20px;
+	}
+	main .content17 .other .power .txt .txt02{
+		border-left: 1px solid #333;
+	}
+	main .content18 .pho{
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 970px;
+	}
+	main .content18 .pho h1{
+		color: #00ff00;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	main .content18 .pho .pho01>div{
+		margin-bottom: 50px;
+	}
+	main .content18 .pho .pho01 .pho02{
+		border-radius: 0px;
+		border: none;
+		margin: 0px;
+		background-color: transparent;
+		padding: 0px;
+	}
+	footer .footer{
+		width: 500px;
+		margin: 40px auto;
+	}
+	footer .one{
+		width: 100%;
+		margin-bottom: 10px;
+		padding-top: 20px;
+		color: #00ff00;
+		padding-left: 25px;
+	}
+	footer .one ul{
+		overflow: hidden;
+	}
+	footer .one ul div{
+		float: left;
+		margin-right: 20px;
+		line-height: 22px;
+		font-size: 12px;
+	}
+	footer .one ul li{
+		float: left;
+		border-right: 1px solid #666;
+		padding: 0px 10px;
+	}
+	footer .one ul li a{
+		color: #00ff00;
+		font-size: 12px;
+	}
+	footer .one ul li a:hover{
+		text-decoration: none;
+	}
+	footer .one ul li:nth-of-type(4){
+		border-right: none;
+	}
+	footer .two{
+		width: 100%;
+		padding-bottom: 30px;
+		color: #666;
+		font-size: 12px;
+	}
+	footer .two a{
+		font-weight: bold;
+		color: #666;
+	}
+	footer .two p{
+		color: #666;
+	}
+	footer .two a:hover{
+		text-decoration: none;
+		color:  #00ff00;
+	}
+}
